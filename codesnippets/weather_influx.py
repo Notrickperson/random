@@ -30,9 +30,9 @@ if databaseAlreadyThere == False:
 client.switch_database(influxdb_database)
 
 
-#insert your openweather api url here
+#insert your openweather api code here where the three X's are
 response = requests.get(
-    'http://api.openweathermap.org/data/2.5/weather?q=berlin&appid=5db43f9f95059343c1d07d3084641680')
+    'http://api.openweathermap.org/data/2.5/weather?q=berlin&appid=XXX')
 data = json.loads(response.content.decode('utf-8'))
 
 
