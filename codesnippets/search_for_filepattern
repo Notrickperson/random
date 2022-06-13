@@ -1,0 +1,4 @@
+#command to look for a keyword in files of a specific folder
+
+find /usr/share -type f -exec grep -l "yourkeyword"  {} \;
+

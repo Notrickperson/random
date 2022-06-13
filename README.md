@@ -1,2 +1,2 @@
 # random
-Random code
+Random codesnippets that might be useful
