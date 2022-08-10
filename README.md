@@ -1,2 +1,1 @@
-# random
-Random codesnippets that might be useful
+Random code dump
